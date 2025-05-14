@@ -1,0 +1,108 @@
+.font-card1 {
+    background-image: url('https://www.freepik.com/free-photos-vectors/black-pattern'); /* <-- මෙතන ඔයාගේ image path */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #f50000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 450px;
+    display: inline-block;
+    text-align: center;
+    color: #fff; /* අකුරු පැහැය සුදු කරන්න */
+    box-shadow: 0 8px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+    animation: alternate-reverse;
+  }
+
+  .font-card1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+  .font-card2 {
+    background-image: url('https://pngtree.com/free-backgrounds'); /* <-- මෙතන ඔයාගේ image path */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #f50000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    color: #fff; /* අකුරු පැහැය සුදු කරන්න */
+    box-shadow: 0 8px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+    animation: alternate-reverse;
+  }
+
+  .font-card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+  
+  .font-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .font-preview {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .font-name {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .font-license {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    background-color: #FE902F;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .download-btn:hover {
+    background-color: #D3823C;
+  }
+
+
+
+.btn {
+    display: inline-block;
+    background-color: #FE902F;
+    color: #0f2027;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #D3823C;
+}
+
+.free-fonts {
+  text-align: center;
+  margin-top: 100px; /* Text එක පහලට අරන් */
+
+
+}
+
+.font-image{
+  width: 450px;
+  height: 250px;
+  border-radius: 8px;
+  margin: 10px 0;
+ 
+}
